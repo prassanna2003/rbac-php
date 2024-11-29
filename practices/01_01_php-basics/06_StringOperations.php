@@ -1,3 +1,5 @@
+<h1>PHP String Operations</h1>
+
 <?php
 echo 'Comparing two string "Hello world!","Hello world!"<br/>';
 echo strcmp("Hello world!","Hello world!");

@@ -2,7 +2,7 @@
 
 session_start(); // Start the session
 
-require_once 'header.php';
+require_once 'inc/header.php';
 ?>
 <h2>Version History</h2>
 
@@ -20,6 +20,17 @@ require_once 'header.php';
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td>1.1</td>
+      <td>29-Nov-2024 Friday</td>
+      <td>Incremental Version</td>
+      <td>
+          <ul>
+              <li>Refactoring Applied</li>
+              <li>Created a dummy page for all the links to make it complete</li>
+          </ul>
+      </td>
+    </tr>
     <tr>
       <td>1.0</td>
       <td>29-Nov-2024 Friday</td>
@@ -53,5 +64,5 @@ require_once 'header.php';
 
 <?php
 
-require_once 'footer.php';
+require_once 'inc/footer.php';
 ?>

@@ -1,5 +1,5 @@
 <?php
-require_once 'header.php';
+require_once 'inc/header.php';
 ?>
 
 <div class="container mt-5">
@@ -9,7 +9,7 @@ require_once 'header.php';
         <!-- Jumbotron Text -->
         <div class="col-lg-6">
           <h1 class="display-5 fw-bold">RBAC Implementation in PHP</h1>
-          <p class="fs-4">A simple implementation of RBAC (Role Based Access Control) using PHP, MySQL and JWT.</p>          
+          <p class="fs-4">A simple implementation of RBAC (Role Based Access Control) using PHP, MySQL and JWT.</p>
           <form action="features.php" method="POST">
             <button type="submit" class="btn btn-primary btn-lg">Learn More</button>
           </form>
@@ -26,28 +26,28 @@ require_once 'header.php';
             </div>
             <div class="carousel-inner rounded">
               <div class="carousel-item active">
-                <img src="../images/RBAC-Authentication.png" class="d-block w-100" alt="RBAC Authentication">
+                <img src="images/RBAC-Authentication.png" class="d-block w-100" alt="RBAC Authentication">
                 <!--<div class="carousel-caption d-none d-md-block">
                   <h5>RBAC</h5>
                   <p>PHP, MySQL, JWT, bootstrap</p>
                 </div>-->
               </div>
               <div class="carousel-item">
-                <img src="../images/RBAC-Authorization-UseCase1.png" class="d-block w-100" alt="RBAC Authorization UseCase1">
+                <img src="images/RBAC-Authorization-UseCase1.png" class="d-block w-100" alt="RBAC Authorization UseCase1">
                 <!--<div class="carousel-caption d-none d-md-block">
                   <h5>Second Slide</h5>
                   <p>Experience the latest features.</p>
                 </div>-->
               </div>
               <div class="carousel-item">
-                <img src="../images/RBAC-Authorization-UseCase2.png" class="d-block w-100" alt="RBAC Authorization UseCase2">
+                <img src="images/RBAC-Authorization-UseCase2.png" class="d-block w-100" alt="RBAC Authorization UseCase2">
                 <!--<div class="carousel-caption d-none d-md-block">
                   <h5>Third Slide</h5>
                   <p>Get started today!</p>
                 </div>-->
               </div>
               <div class="carousel-item">
-                <img src="../images/RBAC-Authorization-UseCase3.png" class="d-block w-100" alt="RBAC Authorization UseCase3">
+                <img src="images/RBAC-Authorization-UseCase3.png" class="d-block w-100" alt="RBAC Authorization UseCase3">
                 <!--<div class="carousel-caption d-none d-md-block">
                   <h5>Fourth Slide</h5>
                   <p>Get started today!</p>
@@ -69,5 +69,5 @@ require_once 'header.php';
   </div>
 
 <?php
-require_once 'footer.php';
+require_once 'inc/footer.php';
 ?>

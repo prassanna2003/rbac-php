@@ -5,7 +5,7 @@ if (!isset($_SESSION)) {
     session_start();
 }
 
-require_once 'header.php';
+require_once 'inc/header.php';
 ?>
 <div class="alert alert-info" role="alert">
   Below are the list of users and their roles, configured in the System for the RBAC Implementation.
@@ -44,5 +44,5 @@ require_once 'header.php';
 
 <?php
 
-require_once 'footer.php';
+require_once 'inc/footer.php';
 ?>

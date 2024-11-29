@@ -1,6 +1,6 @@
 <?php
 
-require_once 'header.php';
+require_once 'inc/header.php';
 
 echo "<h2>Features currently available in the Application</h2>";
 
@@ -18,7 +18,7 @@ echo "<h2>Features currently available in the Application</h2>";
     <tr>
       <td>Home Page of the Application</td>
       <td>
-        <img src="../images/RBAC-HomePage.png" width="600px" height="300px;" alt="Home Page">
+        <img src="./images/RBAC-HomePage.png" width="600px" height="300px;" alt="Home Page">
       </td>
       <td>
         The application launches successfully with the default page (Index Page).
@@ -27,7 +27,7 @@ echo "<h2>Features currently available in the Application</h2>";
     <tr>
       <td>Successful Authentication and Authorization</td>
       <td>
-        <img src="../images/RBAC-WelcomePage.png" width="600px" height="300px;" alt="Home Page">
+        <img src="./images/RBAC-WelcomePage.png" width="600px" height="300px;" alt="Home Page">
       </td>
       <td>
         User has been successfully authenticated and authorized, and shown the Welcome Page
@@ -36,7 +36,7 @@ echo "<h2>Features currently available in the Application</h2>";
     <tr>
       <td>Session Timeout</td>
       <td>
-        <img src="../images/RBAC-SessionTimeout.png" width="600px" height="300px;" alt="Home Page">
+        <img src="./images/RBAC-SessionTimeout.png" width="600px" height="300px;" alt="Home Page">
       </td>
       <td>
         User is redirected to the Login page with a meaningful message after the session gets timed out.
@@ -47,5 +47,5 @@ echo "<h2>Features currently available in the Application</h2>";
 
 <?php
 
-require_once 'footer.php';
+require_once 'inc/footer.php';
 ?>

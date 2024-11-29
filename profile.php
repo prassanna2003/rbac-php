@@ -1,8 +1,8 @@
 <?php
 
-include_once 'session_handler.php';
+include_once 'inc/session_handler.php';
 
-require_once 'header.php';
+require_once 'inc/header.php';
 
 echo "<h2>Summary</h2>";
 
@@ -32,5 +32,5 @@ if(isset($_SESSION)) {
 
 <?php
 
-require_once 'footer.php';
+require_once 'inc/footer.php';
 ?>

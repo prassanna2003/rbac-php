@@ -1,5 +1,5 @@
 <?php
-include_once 'global.php';
+include_once 'inc/global.php';
 
 //echo "authorize.php invoked! <br/>";
 

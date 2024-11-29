@@ -29,14 +29,11 @@ if (isset($_SESSION['accessArray'])) {
             if(array_search($value, $access))
             {
           ?>
-              <li><a href="#" class="nav-link px-2"><?php echo $value;?></a></li>
+              <li><a href="<?php echo lcfirst($value);?>.php" class="nav-link px-2"><?php echo $value;?></a></li>
           <?php
             }
           }
         ?>
-        <li>
-          <a href="userlist.php" class="nav-link px-2">User List</a>
-        </li>
         <?php
           if(isset($_SESSION['username']))
           {
@@ -54,7 +51,7 @@ if (isset($_SESSION['accessArray'])) {
           <a href="history.php" class="nav-link px-2">Version History</a>
         </li>
         <li>
-          <a href="#" class="nav-link px-2">Contact</a>
+          <a href="contact.php" class="nav-link px-2">Contact</a>
         </li>
       </ul>
       <!--<form class="d-flex" role="search">

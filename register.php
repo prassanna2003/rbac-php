@@ -1,6 +1,6 @@
 <?php
 
-include_once 'session_handler.php';
+include_once 'inc/session_handler.php';
 
 showRegisterForm();
 

@@ -1,8 +1,8 @@
 <?php
 
-include_once 'session_handler.php';
+include_once 'inc/session_handler.php';
 
-include_once 'header.php';
+include_once 'inc/header.php';
 include_once 'authorize.php';
 
 //echo "login.php - ENTER <br/>";
@@ -118,5 +118,5 @@ function showLoginForm()
   </div>
 <?php
 }
-include_once 'footer.php';
+include_once 'inc/footer.php';
 ?>

@@ -32,8 +32,8 @@
 */
 
 $servername = "localhost";
-$username = "raghs";
-$password = "RaghsMySQL12#";
+$username = "root";
+$password = "";
 $database = "test";
 
 $conn = "";
